@@ -12,6 +12,7 @@
 @media (min-width: 1025px) and (max-width: 1200) {}
 
 @media (min-width: 1201px) {}
+
 //1433px
 @media (min-width: 280px) and (max-width: 1024px) {
     body {
@@ -23,839 +24,696 @@
             -o-border-radius: $num;
         }
 
- 
+
         nav {
             height: 7vh;
             width: 100%;
-          // top: -100px;
-           // right: -100px;
+            // top: -100px;
+            // right: -100px;
             z-index: 1000;
             display: flex;
-           
-           overflow: hidden;
-         //  @include bordRadius( 0  0  0 250px) ;
-           
-    
+
+            overflow: hidden;
+            //  @include bordRadius( 0  0  0 250px) ;
+
+
             .container {
-               flex-direction: row;
-             //  justify-content: space-between;
-             align-items: flex-start;
-               width: 90%;
-               #menuIcon{
-                display: block;
-            }
-               
-    
+                flex-direction: row;
+                //  justify-content: space-between;
+                align-items: flex-start;
+                width: 90%;
+
+                #menuIcon {
+                    display: block;
+                }
+
+
                 .logo {
                     min-height: 6vh;
-                    width: 30%; 
+                    width: 30%;
                     align-self: flex-start;
-    
+
                 }
-    
+
                 .navLink {
                     flex-direction: column;
                     margin: 20px;
                     height: 70%;
-                    
-    
-                   
-                    .active {
-              
-                    }
-    
+
+
+
+                    .active {}
+
                     li {
-                       font-size: 1.2rem;
-    
+                        font-size: 1.2rem;
+
                     }
-    
-                    li:hover {
-                      
-    
-                    }
-    
+
+                    li:hover {}
+
                     ul {
-                      
-                        li {
-                            svg {
-                                
-                            }
-    
-                        }
-    
-                        .notActive {
-                            top: 20px;
-                            right: 80px;
-                            li {
-                               
-                            }
-    
-                        }
-                    }
-    
-                    .language {
-    
-                        
+
                         li {
                             svg {}
-    
+
                         }
-    
-                        li:last-child {
-                            
+
+                        .notActive {
+                            top: 0px;
+                            right: 70px;
+
+                            li {
+                                width: 2.7rem;
+                                padding: 2px 5px;
+                            }
+
                         }
-    
+                    }
+
+                    .language {
+
+
+                        li {
+                            svg {}
+
+                        }
+
+                        li:last-child {}
+
                         .notActive {}
                     }
-    
+
                     .currency {
-    
-                        
+
+
                         li {}
-    
-                        li:last-child {
-                            
-                        }
-    
+
+                        li:last-child {}
+
                         .notActive {}
                     }
-    
-                    .enter {
-                       
-                    }
+
+                    .enter {}
                 }
             }
         }
-    
+
         header {
-           height: 60vh;
-    
+            height: 60vh;
+
             .right {
-               width: 100%;
+                width: 100%;
 
                 .container {
-                   
+
                     .img {
-                       width: 80%;
-    
-                        div {
-                           
-                        }
-    
+                        width: 80%;
+
+                        div {}
+
                         .points {
                             width: 40%;
-                        height: 30%;
-    
-    
+                            height: 30%;
+
+
                         }
-    
-                        .triangle {
-                           
-    
-                        }
+
+                        .triangle {}
                     }
-    
+
                     p {
                         font-size: 2rem;
-                        top: 7rem ;
-    
+                        top: 7rem;
+
                     }
-    
+
                     .buttons {
                         button {
-                           
-    
-                            &:before {
-                               
-                            }
+
+
+                            &:before {}
                         }
-    
-                        button:hover::before {
-                           
-                        }
-    
-                        .creat {
-                           
-    
-    
-    
-                        }
-    
-    
-    
+
+                        button:hover::before {}
+
+                        .creat {}
+
+
+
                         .test {
-                            
-    
-                            &:before {
-                                
-    
-    
-                            }
-    
-    
-    
+
+
+                            &:before {}
+
+
+
                         }
-    
-                        .test:hover {
-                            
-                        }
+
+                        .test:hover {}
                     }
                 }
             }
-    
+
             .left {
-               display: none;
-    
+                display: none;
+
                 .container {
-                   
-    
+
+
                     .img {
-                       
-    
+
+
                         img {}
-    
+
                     }
                 }
             }
         }
-    
+
         .counter {
-            
-    
+
+
             .container {
-               width: 60% ;
-              
-    
-    
+                width: 60%;
+
+
+
                 div {
-                   
-    
-                    p {
-                       
-    
-                    }
-    
-                    span {
-                       
-                    }
+
+
+                    p {}
+
+                    span {}
                 }
-    
+
                 .shops {
                     p {}
-    
+
                     span {}
                 }
-    
+
                 .orders {
                     p {}
-    
+
                     span {}
                 }
-    
+
                 .sales {
                     p {}
-    
+
                     span {}
                 }
             }
         }
-    
+
         .whyYourBasket {
-           
-    
+
+
             .container {
-              
-    
+
+
                 h6 {
-                   
-    
-    
+
+
+
                     &:before {
                         left: 50px;
-                        
+
                     }
-    
+
                     &:after {
-                      left: 0;
-    
+                        left: 0;
+
                     }
-    
+
                 }
-    
-                p {
-    
-                  
-    
-                }
+
+                p {}
             }
         }
-    
+
         .Features {
-          
-    
+
+
             .container {
-               width: 80% ;
-              
-                   
-                    
-    
-                    .crud {
-                       width: 100%;
-                       margin-bottom:10px ;
-    
-                        .img {
-                            
-                        }
-                        h5{
-                           
-                        }
-                        p{
-                            font-size: 20px ;
-                        }
-                        
-    
+                width: 80%;
+
+
+
+
+                .crud {
+                    width: 100%;
+                    margin-bottom: 10px;
+
+                    .img {}
+
+                    h5 {}
+
+                    p {
+                        font-size: 20px;
                     }
-                    .crud:hover{
-                       
-                        p{
-                           
-                        }
-    
-                    }
-                
-                
-                  
-                   
-                    .crud {
-                        
-    
-    
-                        .img {
-                      
-                        }
-    
-                        h5 {
-                           
-                        }
-    
-                        p {
-                           
-                         
-                        }
-                    }
-                
-    
-               
-    
-                    .crud {
-    
-                        .img {}
-    
-                        h5 {}
-    
-                        p {}
-                    }
-                
+
+
+                }
+
+                .crud:hover {
+
+                    p {}
+
+                }
+
+
+
+
+                .crud {
+
+
+
+                    .img {}
+
+                    h5 {}
+
+                    p {}
+                }
+
+
+
+
+                .crud {
+
+                    .img {}
+
+                    h5 {}
+
+                    p {}
+                }
+
             }
         }
+
         .reports {
-           
-    
+
+
             .container {
                 width: 90%;
-    
+
                 h3 {
-                   
-    
-    
-                    &:before {
-                       
-                       
-                    }
-    
+
+
+
+                    &:before {}
+
                     &:after {
-                       left: -60% ;
-    
+                        left: -60%;
+
                     }
-    
+
                 }
-    
+
                 .animation {
                     width: 60vw;
                     height: 28vh;
                 }
-    
-                p {
-                   
-                }
+
+                p {}
             }
         }
-    
+
         .download {
-            
-    
+
+
             .container {
-               
-    
+
+
                 div {
-                  
-    
-                  width: 50% ;
-                  padding: 10px ;
-                  margin: 5px;
-    
-    
-                    &:hover {
-                      
-    
-                    }
-    
-                    &:hover span {
-                       
-                    }
-    
-                    &:hover svg {
-                      
-                    }
-    
-                    svg {
-                       
-                    }
-    
-                    span {
-                     
-    
-    
-                    }
+
+
+                    width: 50%;
+                    padding: 10px;
+                    margin: 5px;
+
+
+                    &:hover {}
+
+                    &:hover span {}
+
+                    &:hover svg {}
+
+                    svg {}
+
+                    span {}
                 }
-    
+
                 .googleplay {
                     svg {}
-    
+
                     span {}
-    
+
                 }
-    
+
                 .appStore {}
             }
         }
-    
+
         .models {
-           
+
             .container {
-                
-    
+
+
                 h3 {
-                   
-    
-    
-                    &:before {
-                       
-                    }
-    
+
+
+
+                    &:before {}
+
                     &:after {
                         left: -30%;
-    
+
                     }
-    
+
                 }
-    
-                p {
-    
-                   
-    
-    
-                }
-    
+
+                p {}
+
                 .cruds {
-                   
-    
+
+
                     .owl-carousel {
                         .owl-stage-outer {
                             .owl-stage {
-                               
-    
+
+
                                 .owl-item {
-                                 
-    
+
+
                                     .crud {
-                                       
-    
+
+
                                         .img {
-                                           
-    
-                                          
+
+
+
                                             img {
-                                              
-    
-                                                &:hover {
-                                                   
-                                                }
-    
+
+
+                                                &:hover {}
+
                                             }
-    
+
                                         }
-    
-                                        h5 {
-                                            
-                                        }
-    
-                                        p {
-                                           
-    
-                                        }
+
+                                        h5 {}
+
+                                        p {}
                                     }
                                 }
                             }
                         }
-    
-    
+
+
                     }
                 }
             }
         }
-    
+
         .our_Clients {
-           display: none;
-    
+            display: none;
+
             .container {
-             
-    
+
+
                 h3 {
-                   
-    
-    
-                    &:before {
-                      
-                    }
-    
-                    &:after {
-                      
-    
-                    }
-    
+
+
+
+                    &:before {}
+
+                    &:after {}
+
                 }
-    
-    
+
+
                 .owl-carouselClients {
-                   
-    
+
+
                     .owl-stage-outer {
                         .owl-stage {
-    
-                           
+
+
                             .owl-item {
-                              
-    
+
+
                                 .item {
-                                   
-    
-                                    h4 {
-                                        
-    
-                                    }
-    
-                                    p {
-                                       
-                                    }
+
+
+                                    h4 {}
+
+                                    p {}
                                 }
                             }
                         }
                     }
-    
+
                     .owl-nav {
-    
+
                         button {
-                           
-    
+
+
                             span {
-                               
-    
-                                &:hover {
-                                    
-                                }
+
+
+                                &:hover {}
                             }
-    
-                            &:hover {
-                               
-                            }
+
+                            &:hover {}
                         }
-    
+
                         button:first-child {
-                          
-    
+
+
                             span {}
-    
-    
-    
+
+
+
                         }
-    
+
                         button:last-child {
-                           
-    
-                            span {
-                               
-                            }
+
+
+                            span {}
                         }
-    
-    
+
+
                         .owl-prev {}
                     }
-    
+
                 }
-    
+
             }
         }
-    
+
         .stores {
-           display: none;
-    
+            display: none;
+
             .container {
-              
-    
+
+
                 div {
-                   
-    
-    
-                    img {
-                       
-                    }
+
+
+
+                    img {}
                 }
-    
-                .blazefut {
-                   
-    
-                }
-    
-                .Tahani_Abaya {
-                    
-    
-                }
-    
-                .ManTHOOR {
-                    
-                }
-    
-                .ahmedPerfumes {
-                  
-                }
-    
-                .maqrEload {
-                    
-                }
+
+                .blazefut {}
+
+                .Tahani_Abaya {}
+
+                .ManTHOOR {}
+
+                .ahmedPerfumes {}
+
+                .maqrEload {}
             }
         }
-    
+
         .package {
-            
-    
+
+
             .container {
-             width: 75% ;
-    
+                width: 75%;
+
                 h3 {
-                    
-    
-    
-                    &:before {
-                       
-                    }
-    
-                    &:after {
-                       
-    
-                    }
-    
+
+
+
+                    &:before {}
+
+                    &:after {}
+
                 }
-    
-                p {
-    
-                  
-    
-    
-                }
-    
+
+                p {}
+
                 .monthlyAndAnnually {
-                   
-    
-    
-                    .monthly {
-                        
-                    }
-    
+
+
+
+                    .monthly {}
+
                     .button {
-                       
-    
-                        .toogleMonthlyAndAnnually {
-                         
-                        }
-    
-                        span {
-                           
-                        }
+
+
+                        .toogleMonthlyAndAnnually {}
+
+                        span {}
                     }
-    
+
                     .annually {}
                 }
-    
+
                 .packages {
                     flex-direction: column;
+
                     div {
                         width: 100%;
                         margin: 5px 0;
-    
+
                         span {
-                          font-size: 50px;
-                            sub{
-                               
-                            }
+                            font-size: 50px;
+
+                            sub {}
                         }
-    
-                        h4 {
-                           
-    
-                        }
-    
+
+                        h4 {}
+
                         ul {
-                           
-    
-    
+
+
+
                             li {
-                               
-    
-                                span {
-                                   
-                                }
+
+
+                                span {}
                             }
                         }
-    
+
                         button {
                             padding: 15px 56px;
                         }
-    
+
                     }
-    
+
                     .free {
                         span {}
-    
+
                         h4 {}
-    
+
                         ul {
                             li {}
                         }
-    
+
                         button {}
                     }
-    
+
                     .mediumCost {
-                      
-                        span {
-                          
-                        }
-    
-                        h4 {
-                            
-                        }
-    
+
+                        span {}
+
+                        h4 {}
+
                         ul {
                             li {}
                         }
-    
+
                         button {}
                     }
-    
+
                     .heighCost {
                         span {}
-    
+
                         h4 {}
-    
+
                         ul {
                             li {}
                         }
-    
+
                         button {}
                     }
-    
-    
-    
-    
+
+
+
+
                 }
-    
+
             }
         }
-    
+
         .weHereForYou {
             .container {
-             //  overflow: hidden;
+
+                //  overflow: hidden;
                 h3 {
-                   
-    
-    
+
+
+
                     &:before {
-                       top: 0% ;
+                        top: 0%;
                     }
-    
+
                 }
-    
+
                 .input {
                     width: 100%;
-                   
-                
-    
+
+
+
                     input {
-                       
-                        &::placeholder{
-                            
-                        }
-                        &:focus {
-                           
-                            
-                        }
-    
+
+                        &::placeholder {}
+
+                        &:focus {}
+
                     }
-    
-                    
-    
-    
-    
-                   
-                    img{
-                        padding: 11px ;
+
+
+
+
+
+
+                    img {
+                        padding: 11px;
                     }
-                    &:focus  img  {
-                       
-                    }
+
+                    &:focus img {}
                 }
-    
-                span {
-                    
-                }
-    
+
+                span {}
+
                 .animationWeHereForYou {
-                    img{
-                       
-                    }
-                    img:first-child {
-                       
-                       
-                 
-                    }
-                    img:nth-child(2){
+                    img {}
+
+                    img:first-child {}
+
+                    img:nth-child(2) {
                         display: none;
                     }
-                    img:nth-child(3){
-                      //  display: none;
+
+                    img:nth-child(3) {
+                        //  display: none;
                     }
-                    img:nth-child(4){
-                      //  display: none;
+
+                    img:nth-child(4) {
+                        //  display: none;
                     }
                 }
             }
         }
-    
-    
+
+
     }
 
-//  stop here         ==========================
+    //  stop here         ==========================
 
 
 
@@ -870,11 +728,688 @@
 
 ///////////////////////////////////    
 
-@media (min-width: 1025px) and (max-width: 1424px) {
-body {
+@media (min-width: 200px) and (max-width: 300px) {
+    body {
 
-    
-}
+        @mixin bordRadius($num) {
+            border-radius: $num;
+            -webkit-border-radius: $num;
+            -moz-border-radius: $num;
+            -ms-border-radius: $num;
+            -o-border-radius: $num;
+        }
+
+        nav {
+
+
+            .container {
+
+                #menuIcon {
+                    font-size: 20px;
+                }
+
+
+                .logo {}
+
+                .navLink {
+
+
+                    .active {}
+
+                    li {}
+
+                    li:hover {}
+
+                    ul {
+
+                        li {
+                            svg {}
+
+                        }
+
+                        .notActive {
+
+                            li {}
+
+                        }
+                    }
+
+                    .language {
+
+
+                        li {
+                            svg {}
+
+                        }
+
+                        li:last-child {}
+
+                        .notActive {}
+                    }
+
+                    .currency {
+
+
+                        li {}
+
+                        li:last-child {}
+
+                        .notActive {}
+                    }
+
+                    .enter {}
+                }
+            }
+        }
+
+        header {
+            height: 60vh;
+
+            .right {
+                width: 100%;
+
+                .container {
+
+                    .img {
+                        width: 80%;
+
+                        div {}
+
+                        .points {
+                            width: 40%;
+                            height: 30%;
+
+
+                        }
+
+                        .triangle {}
+                    }
+
+                    p {
+                        font-size: 2rem;
+                        top: 7rem;
+
+                    }
+
+                    .buttons {
+                        button {
+
+                            padding: 7px 25px;
+
+                            &:before {}
+                        }
+
+                        button:hover::before {}
+
+                        .creat {}
+
+
+
+                        .test {
+
+
+                            &:before {}
+
+
+
+                        }
+
+                        .test:hover {}
+                    }
+                }
+            }
+
+            .left {
+                display: none;
+
+                .container {
+
+
+                    .img {
+
+
+                        img {}
+
+                    }
+                }
+            }
+        }
+
+        .counter {
+
+
+            .container {
+                width: 85%;
+
+
+
+                div {
+
+
+                    p {
+                        font-size: 18px;
+
+                    }
+
+                    span {
+                        font-size: 20px;
+                    }
+                }
+
+                .shops {
+                    p {}
+
+                    span {}
+                }
+
+                .orders {
+                    p {}
+
+                    span {}
+                }
+
+                .sales {
+                    p {}
+
+                    span {}
+                }
+            }
+        }
+
+        .whyYourBasket {
+
+
+            .container {
+                flex-wrap: nowrap;
+
+                h6 {
+
+                    font-size: 30px;
+
+                    &:before {
+                        left: 50px;
+
+                    }
+
+                    &:after {
+                        left: 0;
+
+                    }
+
+                }
+
+                p {}
+            }
+        }
+
+        .Features {
+
+
+            .container {
+                width: 80%;
+
+
+
+
+                .crud {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    flex-wrap: nowrap;
+
+                    .img {}
+
+                    h5 {
+                        font-size: 1.2rem;
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
+
+
+                }
+
+                .crud:hover {
+
+                    p {}
+
+                }
+
+
+
+
+                .crud {
+
+
+
+                    .img {}
+
+                    h5 {}
+
+                    p {}
+                }
+
+
+
+
+                .crud {
+
+                    .img {}
+
+                    h5 {}
+
+                    p {}
+                }
+
+            }
+        }
+
+        .reports {
+
+
+            .container {
+                width: 90%;
+
+                h3 {
+
+
+
+                    &:before {
+                        left: 0;
+
+                    }
+
+                    &:after {
+                        left: -20%;
+
+                    }
+
+                }
+
+                .animation {
+                    width: 60vw;
+                    height: 26vh;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .download {
+
+
+            .container {
+
+
+                div {
+
+
+                    width: 50%;
+                    padding: 10px;
+                    margin: 5px;
+
+
+                    &:hover {}
+
+                    &:hover span {}
+
+                    &:hover svg {}
+
+                    svg {
+                        font-size: 20px;
+                    }
+
+                    span {
+                        font-size: 18px;
+
+
+                    }
+                }
+
+                .googleplay {
+                    svg {}
+
+                    span {}
+
+                }
+
+                .appStore {}
+            }
+        }
+
+        .models {
+
+            .container {
+
+
+                h3 {
+
+
+
+                    &:before {}
+
+                    &:after {
+                        left: -30%;
+
+                    }
+
+                }
+
+                p {}
+
+                .cruds {
+
+
+                    .owl-carousel {
+                        .owl-stage-outer {
+                            .owl-stage {
+
+
+                                .owl-item {
+
+
+                                    .crud {
+
+
+                                        .img {
+
+
+
+                                            img {
+
+
+                                                &:hover {}
+
+                                            }
+
+                                        }
+
+                                        h5 {}
+
+                                        p {}
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+            }
+        }
+
+        .our_Clients {
+            display: none;
+
+            .container {
+
+
+                h3 {
+
+
+
+                    &:before {}
+
+                    &:after {}
+
+                }
+
+
+                .owl-carouselClients {
+
+
+                    .owl-stage-outer {
+                        .owl-stage {
+
+
+                            .owl-item {
+
+
+                                .item {
+
+
+                                    h4 {}
+
+                                    p {}
+                                }
+                            }
+                        }
+                    }
+
+                    .owl-nav {
+
+                        button {
+
+
+                            span {
+
+
+                                &:hover {}
+                            }
+
+                            &:hover {}
+                        }
+
+                        button:first-child {
+
+
+                            span {}
+
+
+
+                        }
+
+                        button:last-child {
+
+
+                            span {}
+                        }
+
+
+                        .owl-prev {}
+                    }
+
+                }
+
+            }
+        }
+
+        .stores {
+            display: none;
+
+            .container {
+
+
+                div {
+
+
+
+                    img {}
+                }
+
+                .blazefut {}
+
+                .Tahani_Abaya {}
+
+                .ManTHOOR {}
+
+                .ahmedPerfumes {}
+
+                .maqrEload {}
+            }
+        }
+
+        .package {
+
+
+            .container {
+                width: 75%;
+
+                h3 {
+
+
+
+                    &:before {}
+
+                    &:after {}
+
+                }
+
+                p {}
+
+                .monthlyAndAnnually {
+
+
+
+                    .monthly {}
+
+                    .button {
+
+
+                        .toogleMonthlyAndAnnually {}
+
+                        span {}
+                    }
+
+                    .annually {}
+                }
+
+                .packages {
+                    flex-direction: column;
+
+                    div {
+                        width: 100%;
+                        margin: 5px 0;
+
+                        span {
+                            font-size: 35px;
+
+                            sub {
+                                font-size: 20px;
+                            }
+                        }
+
+                        h4 {}
+
+                        ul {
+
+
+
+                            li {
+
+
+                                span {}
+                            }
+                        }
+
+                        button {}
+
+                    }
+
+                    .free {
+                        span {}
+
+                        h4 {}
+
+                        ul {
+                            li {}
+                        }
+
+                        button {}
+                    }
+
+                    .mediumCost {
+
+                        span {}
+
+                        h4 {}
+
+                        ul {
+                            li {}
+                        }
+
+                        button {}
+                    }
+
+                    .heighCost {
+                        span {}
+
+                        h4 {}
+
+                        ul {
+                            li {}
+                        }
+
+                        button {}
+                    }
+
+
+
+
+                }
+
+            }
+        }
+
+        .weHereForYou {
+            .container {
+                h3 {
+
+
+
+                    &:before {}
+
+                }
+
+                .input {
+
+
+
+
+                    input {
+
+                        &::placeholder {}
+
+                        &:focus {}
+
+                    }
+
+
+
+
+
+
+                    img {}
+
+                    &:focus img {}
+                }
+
+                span {}
+
+                .animationWeHereForYou {
+                    img {}
+
+                    img:first-child {}
+
+                    img:nth-child(2) {}
+
+                    img:nth-child(3) {}
+
+                    img:nth-child(4) {}
+                }
+            }
+        }
+
+
+    }
+
+    //  stop here         ==========================
+
+
+
+
 }
 
 
@@ -884,418 +1419,3 @@ body {
 //Empty Style  For edit on responsive  
 /////////
 ////////
-
-
-
-
-
-
-
-
-
-
-
-/////////////
-
-
-
-
-
-
-
-
-
-
-//////////////////////////////////////
-/////////////////////////////////////
-////////////////////////////////
-
-
-
-
-// body {
-//     section {
-//         menu {
-//             display: block;
-//             cursor: pointer;
-//         }
-//         nav:hover {
-
-//         }
-
-//         .navHeight {
-
-//         }
-
-//         nav {
-
-
-//             .container {
-
-
-
-//                 .right {
-
-
-//                     .logo {
-
-
-//                         h1 {}
-
-//                         span {}
-//                     }
-
-//                     ul {
-
-
-//                         li {
-//                         }
-//                     }
-
-//                     .add {
-
-//                         i {}
-
-//                         span {}
-//                     }
-//                 }
-
-//                 .left {
-
-
-//                     i {}
-
-//                     .icons {
-
-
-
-//                         svg {
-
-//                         }
-
-//                         .iconsDynamic {
-
-
-//                             .messages {
-
-
-//                                 i {}
-
-//                                 span {}
-//                             }
-
-//                             .notifications {
-
-//                                 i {}
-
-//                                 span {}
-//                             }
-//                         }
-//                     }
-
-//                     .profile {
-
-
-
-//                         .img {
-
-
-
-//                             img {}
-//                         }
-
-//                         span {}
-
-//                         i {}
-//                     }
-//                 }
-
-//             }
-//         }
-
-//         main {
-
-
-//             .shadow {}
-
-//             div {
-
-
-//                 span {}
-
-//                 .path {
-
-
-//                     .pathMain {}
-
-//                     .pathChats {}
-//                 }
-//             }
-//         }
-
-//         .chat {
-
-
-//             .container {
-
-
-
-
-
-//                 .chaTop {
-//                     .text {
-//                         h4 {}
-
-//                         p {}
-//                     }
-//                 }
-
-//                 .chatBar {
-
-//                 }
-
-//                 .chatBottom {
-
-
-
-
-//                     .chatList::-webkit-scrollbar {}
-
-
-//                     .chatList::-webkit-scrollbar-track {}
-
-//                     .chatList::-webkit-scrollbar-thumb {}
-
-//                     .chatList {
-
-//                         display: none;
-
-
-//                         .Clients {
-
-
-//                             .topClient {
-
-
-//                                 .img {}
-
-//                                 .clientName {}
-//                             }
-
-//                             .bottomUser {
-
-
-//                                 .clientMessage {}
-
-//                                 .timeLastMessage {
-//                                     svg {}
-
-//                                     span {}
-//                                 }
-//                             }
-//                         }
-//                     }
-
-
-//                     .clientChat {
-
-
-//                         #togleChatBar {
-//                             svg {
-
-//                             }
-
-//                         }
-
-//                         .topClientChat {
-
-
-
-
-//                             .img {
-
-//                             }
-
-//                             span {
-
-//                             }
-//                         }
-
-
-//                         .middleClientChat::-webkit-scrollbar {
-
-//                         }
-
-
-
-
-//                         .middleClientChat {
-
-//                             .chats {
-
-
-
-//                                 .message {
-
-
-//                                     span {}
-
-//                                     p {
-
-//                                     }
-
-//                                 }
-
-//                                 .EEF0F8 {}
-
-//                                 .otherMessageBorder {}
-
-//                                 .mainUser {
-
-
-
-//                                     span {}
-//                                 }
-
-//                                 .otherUser {
-//                                     span {}
-
-//                                 }
-//                             }
-//                         }
-
-//                         .BottomChat {
-
-
-
-//                             .input {
-
-
-
-//                                 input {}
-
-//                                 input:focus {}
-
-//                                 svg {
-
-//                                 }
-//                             }
-
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-
-//         footer {
-
-
-//             div {
-
-
-//                 .container {}
-//             }
-
-//             .top {
-
-
-//                 .container {
-
-
-//                     div {
-
-
-//                         ul {
-
-
-//                             li {
-
-//                             }
-//                         }
-//                     }
-
-//                     .right {
-
-
-//                         ul {
-//                             li:first-child {}
-
-//                             li {}
-//                         }
-//                     }
-
-//                     .mid {
-
-
-//                         ul {
-//                             li {}
-//                         }
-//                     }
-
-//                     .left {
-
-//                         ul {
-//                             li {}
-//                         }
-
-//                         .apps {
-
-
-
-
-//                             div {
-
-//                             }
-
-
-//                         }
-
-
-
-
-//                     }
-//                 }
-//             }
-
-//             .bottom {
-
-
-//                 .container {
-
-
-//                     ul {
-
-
-
-//                         li {}
-
-//                         li:first-child {
-//                             svg:first-child {}
-//                         }
-
-//                         li:nth-child(2) {
-//                             svg {}
-//                         }
-
-//                         li:nth-child(3) {
-//                             svg {}
-//                         }
-
-//                         li:nth-child(4) {
-//                             svg {}
-//                         }
-//                     }
-
-//                     .copyRight {
-//                         p {
-
-
-//                             span {}
-//                         }
-//                     }
-//                 }
-//             }
-
-//         }
-//     }
-// }

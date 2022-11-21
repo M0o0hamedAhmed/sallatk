@@ -28,8 +28,12 @@
     font-size: 1.2rem;
   }
   body nav .container .navLink ul .notActive {
-    top: 20px;
-    right: 80px;
+    top: 0px;
+    right: 70px;
+  }
+  body nav .container .navLink ul .notActive li {
+    width: 2.7rem;
+    padding: 2px 5px;
   }
   body header {
     height: 60vh;
@@ -121,5 +125,120 @@
   }
   body .weHereForYou .container .animationWeHereForYou img:nth-child(2) {
     display: none;
+  }
+}
+@media (min-width: 200px) and (max-width: 300px) {
+  body nav .container #menuIcon {
+    font-size: 20px;
+  }
+  body header {
+    height: 60vh;
+  }
+  body header .right {
+    width: 100%;
+  }
+  body header .right .container .img {
+    width: 80%;
+  }
+  body header .right .container .img .points {
+    width: 40%;
+    height: 30%;
+  }
+  body header .right .container p {
+    font-size: 2rem;
+    top: 7rem;
+  }
+  body header .right .container .buttons button {
+    padding: 7px 25px;
+  }
+  body header .left {
+    display: none;
+  }
+  body .counter .container {
+    width: 85%;
+  }
+  body .counter .container div p {
+    font-size: 18px;
+  }
+  body .counter .container div span {
+    font-size: 20px;
+  }
+  body .whyYourBasket .container {
+    flex-wrap: nowrap;
+  }
+  body .whyYourBasket .container h6 {
+    font-size: 30px;
+  }
+  body .whyYourBasket .container h6:before {
+    left: 50px;
+  }
+  body .whyYourBasket .container h6:after {
+    left: 0;
+  }
+  body .Features .container {
+    width: 80%;
+  }
+  body .Features .container .crud {
+    width: 100%;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+  }
+  body .Features .container .crud h5 {
+    font-size: 1.2rem;
+  }
+  body .Features .container .crud p {
+    font-size: 15px;
+  }
+  body .reports .container {
+    width: 90%;
+  }
+  body .reports .container h3:before {
+    left: 0;
+  }
+  body .reports .container h3:after {
+    left: -20%;
+  }
+  body .reports .container .animation {
+    width: 60vw;
+    height: 26vh;
+  }
+  body .reports .container p {
+    font-size: 15px;
+  }
+  body .download .container div {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+  }
+  body .download .container div svg {
+    font-size: 20px;
+  }
+  body .download .container div span {
+    font-size: 18px;
+  }
+  body .models .container h3:after {
+    left: -30%;
+  }
+  body .our_Clients {
+    display: none;
+  }
+  body .stores {
+    display: none;
+  }
+  body .package .container {
+    width: 75%;
+  }
+  body .package .container .packages {
+    flex-direction: column;
+  }
+  body .package .container .packages div {
+    width: 100%;
+    margin: 5px 0;
+  }
+  body .package .container .packages div span {
+    font-size: 35px;
+  }
+  body .package .container .packages div span sub {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=styleResponsive.css.map */
