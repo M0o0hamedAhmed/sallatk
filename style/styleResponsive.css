@@ -1,0 +1,125 @@
+@media (min-width: 280px) and (max-width: 1024px) {
+  body nav {
+    height: 7vh;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    overflow: hidden;
+  }
+  body nav .container {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 90%;
+  }
+  body nav .container #menuIcon {
+    display: block;
+  }
+  body nav .container .logo {
+    min-height: 6vh;
+    width: 30%;
+    align-self: flex-start;
+  }
+  body nav .container .navLink {
+    flex-direction: column;
+    margin: 20px;
+    height: 70%;
+  }
+  body nav .container .navLink li {
+    font-size: 1.2rem;
+  }
+  body nav .container .navLink ul .notActive {
+    top: 20px;
+    right: 80px;
+  }
+  body header {
+    height: 60vh;
+  }
+  body header .right {
+    width: 100%;
+  }
+  body header .right .container .img {
+    width: 80%;
+  }
+  body header .right .container .img .points {
+    width: 40%;
+    height: 30%;
+  }
+  body header .right .container p {
+    font-size: 2rem;
+    top: 7rem;
+  }
+  body header .left {
+    display: none;
+  }
+  body .counter .container {
+    width: 60%;
+  }
+  body .whyYourBasket .container h6:before {
+    left: 50px;
+  }
+  body .whyYourBasket .container h6:after {
+    left: 0;
+  }
+  body .Features .container {
+    width: 80%;
+  }
+  body .Features .container .crud {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .Features .container .crud p {
+    font-size: 20px;
+  }
+  body .reports .container {
+    width: 90%;
+  }
+  body .reports .container h3:after {
+    left: -60%;
+  }
+  body .reports .container .animation {
+    width: 60vw;
+    height: 28vh;
+  }
+  body .download .container div {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+  }
+  body .models .container h3:after {
+    left: -30%;
+  }
+  body .our_Clients {
+    display: none;
+  }
+  body .stores {
+    display: none;
+  }
+  body .package .container {
+    width: 75%;
+  }
+  body .package .container .packages {
+    flex-direction: column;
+  }
+  body .package .container .packages div {
+    width: 100%;
+    margin: 5px 0;
+  }
+  body .package .container .packages div span {
+    font-size: 50px;
+  }
+  body .package .container .packages div button {
+    padding: 15px 56px;
+  }
+  body .weHereForYou .container h3:before {
+    top: 0%;
+  }
+  body .weHereForYou .container .input {
+    width: 100%;
+  }
+  body .weHereForYou .container .input img {
+    padding: 11px;
+  }
+  body .weHereForYou .container .animationWeHereForYou img:nth-child(2) {
+    display: none;
+  }
+}/*# sourceMappingURL=styleResponsive.css.map */

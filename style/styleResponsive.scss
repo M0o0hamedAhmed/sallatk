@@ -1,0 +1,1301 @@
+// 320px — 480px: Mobile devices
+// 481px — 768px: iPads, Tablets
+// 769px — 1024px: Small screens, laptops
+// 1025px — 1200px: Desktops, large screens
+// 1201px and more —  Extra large screens, TV
+@media (min-width: 320px) and (max-width: 480px) {}
+
+@media (min-width: 481px) and (max-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 1024) {}
+
+@media (min-width: 1025px) and (max-width: 1200) {}
+
+@media (min-width: 1201px) {}
+//1433px
+@media (min-width: 280px) and (max-width: 1024px) {
+    body {
+        @mixin bordRadius($num) {
+            border-radius: $num;
+            -webkit-border-radius: $num;
+            -moz-border-radius: $num;
+            -ms-border-radius: $num;
+            -o-border-radius: $num;
+        }
+
+ 
+        nav {
+            height: 7vh;
+            width: 100%;
+          // top: -100px;
+           // right: -100px;
+            z-index: 1000;
+            display: flex;
+           
+           overflow: hidden;
+         //  @include bordRadius( 0  0  0 250px) ;
+           
+    
+            .container {
+               flex-direction: row;
+             //  justify-content: space-between;
+             align-items: flex-start;
+               width: 90%;
+               #menuIcon{
+                display: block;
+            }
+               
+    
+                .logo {
+                    min-height: 6vh;
+                    width: 30%; 
+                    align-self: flex-start;
+    
+                }
+    
+                .navLink {
+                    flex-direction: column;
+                    margin: 20px;
+                    height: 70%;
+                    
+    
+                   
+                    .active {
+              
+                    }
+    
+                    li {
+                       font-size: 1.2rem;
+    
+                    }
+    
+                    li:hover {
+                      
+    
+                    }
+    
+                    ul {
+                      
+                        li {
+                            svg {
+                                
+                            }
+    
+                        }
+    
+                        .notActive {
+                            top: 20px;
+                            right: 80px;
+                            li {
+                               
+                            }
+    
+                        }
+                    }
+    
+                    .language {
+    
+                        
+                        li {
+                            svg {}
+    
+                        }
+    
+                        li:last-child {
+                            
+                        }
+    
+                        .notActive {}
+                    }
+    
+                    .currency {
+    
+                        
+                        li {}
+    
+                        li:last-child {
+                            
+                        }
+    
+                        .notActive {}
+                    }
+    
+                    .enter {
+                       
+                    }
+                }
+            }
+        }
+    
+        header {
+           height: 60vh;
+    
+            .right {
+               width: 100%;
+
+                .container {
+                   
+                    .img {
+                       width: 80%;
+    
+                        div {
+                           
+                        }
+    
+                        .points {
+                            width: 40%;
+                        height: 30%;
+    
+    
+                        }
+    
+                        .triangle {
+                           
+    
+                        }
+                    }
+    
+                    p {
+                        font-size: 2rem;
+                        top: 7rem ;
+    
+                    }
+    
+                    .buttons {
+                        button {
+                           
+    
+                            &:before {
+                               
+                            }
+                        }
+    
+                        button:hover::before {
+                           
+                        }
+    
+                        .creat {
+                           
+    
+    
+    
+                        }
+    
+    
+    
+                        .test {
+                            
+    
+                            &:before {
+                                
+    
+    
+                            }
+    
+    
+    
+                        }
+    
+                        .test:hover {
+                            
+                        }
+                    }
+                }
+            }
+    
+            .left {
+               display: none;
+    
+                .container {
+                   
+    
+                    .img {
+                       
+    
+                        img {}
+    
+                    }
+                }
+            }
+        }
+    
+        .counter {
+            
+    
+            .container {
+               width: 60% ;
+              
+    
+    
+                div {
+                   
+    
+                    p {
+                       
+    
+                    }
+    
+                    span {
+                       
+                    }
+                }
+    
+                .shops {
+                    p {}
+    
+                    span {}
+                }
+    
+                .orders {
+                    p {}
+    
+                    span {}
+                }
+    
+                .sales {
+                    p {}
+    
+                    span {}
+                }
+            }
+        }
+    
+        .whyYourBasket {
+           
+    
+            .container {
+              
+    
+                h6 {
+                   
+    
+    
+                    &:before {
+                        left: 50px;
+                        
+                    }
+    
+                    &:after {
+                      left: 0;
+    
+                    }
+    
+                }
+    
+                p {
+    
+                  
+    
+                }
+            }
+        }
+    
+        .Features {
+          
+    
+            .container {
+               width: 80% ;
+              
+                   
+                    
+    
+                    .crud {
+                       width: 100%;
+                       margin-bottom:10px ;
+    
+                        .img {
+                            
+                        }
+                        h5{
+                           
+                        }
+                        p{
+                            font-size: 20px ;
+                        }
+                        
+    
+                    }
+                    .crud:hover{
+                       
+                        p{
+                           
+                        }
+    
+                    }
+                
+                
+                  
+                   
+                    .crud {
+                        
+    
+    
+                        .img {
+                      
+                        }
+    
+                        h5 {
+                           
+                        }
+    
+                        p {
+                           
+                         
+                        }
+                    }
+                
+    
+               
+    
+                    .crud {
+    
+                        .img {}
+    
+                        h5 {}
+    
+                        p {}
+                    }
+                
+            }
+        }
+        .reports {
+           
+    
+            .container {
+                width: 90%;
+    
+                h3 {
+                   
+    
+    
+                    &:before {
+                       
+                       
+                    }
+    
+                    &:after {
+                       left: -60% ;
+    
+                    }
+    
+                }
+    
+                .animation {
+                    width: 60vw;
+                    height: 28vh;
+                }
+    
+                p {
+                   
+                }
+            }
+        }
+    
+        .download {
+            
+    
+            .container {
+               
+    
+                div {
+                  
+    
+                  width: 50% ;
+                  padding: 10px ;
+                  margin: 5px;
+    
+    
+                    &:hover {
+                      
+    
+                    }
+    
+                    &:hover span {
+                       
+                    }
+    
+                    &:hover svg {
+                      
+                    }
+    
+                    svg {
+                       
+                    }
+    
+                    span {
+                     
+    
+    
+                    }
+                }
+    
+                .googleplay {
+                    svg {}
+    
+                    span {}
+    
+                }
+    
+                .appStore {}
+            }
+        }
+    
+        .models {
+           
+            .container {
+                
+    
+                h3 {
+                   
+    
+    
+                    &:before {
+                       
+                    }
+    
+                    &:after {
+                        left: -30%;
+    
+                    }
+    
+                }
+    
+                p {
+    
+                   
+    
+    
+                }
+    
+                .cruds {
+                   
+    
+                    .owl-carousel {
+                        .owl-stage-outer {
+                            .owl-stage {
+                               
+    
+                                .owl-item {
+                                 
+    
+                                    .crud {
+                                       
+    
+                                        .img {
+                                           
+    
+                                          
+                                            img {
+                                              
+    
+                                                &:hover {
+                                                   
+                                                }
+    
+                                            }
+    
+                                        }
+    
+                                        h5 {
+                                            
+                                        }
+    
+                                        p {
+                                           
+    
+                                        }
+                                    }
+                                }
+                            }
+                        }
+    
+    
+                    }
+                }
+            }
+        }
+    
+        .our_Clients {
+           display: none;
+    
+            .container {
+             
+    
+                h3 {
+                   
+    
+    
+                    &:before {
+                      
+                    }
+    
+                    &:after {
+                      
+    
+                    }
+    
+                }
+    
+    
+                .owl-carouselClients {
+                   
+    
+                    .owl-stage-outer {
+                        .owl-stage {
+    
+                           
+                            .owl-item {
+                              
+    
+                                .item {
+                                   
+    
+                                    h4 {
+                                        
+    
+                                    }
+    
+                                    p {
+                                       
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .owl-nav {
+    
+                        button {
+                           
+    
+                            span {
+                               
+    
+                                &:hover {
+                                    
+                                }
+                            }
+    
+                            &:hover {
+                               
+                            }
+                        }
+    
+                        button:first-child {
+                          
+    
+                            span {}
+    
+    
+    
+                        }
+    
+                        button:last-child {
+                           
+    
+                            span {
+                               
+                            }
+                        }
+    
+    
+                        .owl-prev {}
+                    }
+    
+                }
+    
+            }
+        }
+    
+        .stores {
+           display: none;
+    
+            .container {
+              
+    
+                div {
+                   
+    
+    
+                    img {
+                       
+                    }
+                }
+    
+                .blazefut {
+                   
+    
+                }
+    
+                .Tahani_Abaya {
+                    
+    
+                }
+    
+                .ManTHOOR {
+                    
+                }
+    
+                .ahmedPerfumes {
+                  
+                }
+    
+                .maqrEload {
+                    
+                }
+            }
+        }
+    
+        .package {
+            
+    
+            .container {
+             width: 75% ;
+    
+                h3 {
+                    
+    
+    
+                    &:before {
+                       
+                    }
+    
+                    &:after {
+                       
+    
+                    }
+    
+                }
+    
+                p {
+    
+                  
+    
+    
+                }
+    
+                .monthlyAndAnnually {
+                   
+    
+    
+                    .monthly {
+                        
+                    }
+    
+                    .button {
+                       
+    
+                        .toogleMonthlyAndAnnually {
+                         
+                        }
+    
+                        span {
+                           
+                        }
+                    }
+    
+                    .annually {}
+                }
+    
+                .packages {
+                    flex-direction: column;
+                    div {
+                        width: 100%;
+                        margin: 5px 0;
+    
+                        span {
+                          font-size: 50px;
+                            sub{
+                               
+                            }
+                        }
+    
+                        h4 {
+                           
+    
+                        }
+    
+                        ul {
+                           
+    
+    
+                            li {
+                               
+    
+                                span {
+                                   
+                                }
+                            }
+                        }
+    
+                        button {
+                            padding: 15px 56px;
+                        }
+    
+                    }
+    
+                    .free {
+                        span {}
+    
+                        h4 {}
+    
+                        ul {
+                            li {}
+                        }
+    
+                        button {}
+                    }
+    
+                    .mediumCost {
+                      
+                        span {
+                          
+                        }
+    
+                        h4 {
+                            
+                        }
+    
+                        ul {
+                            li {}
+                        }
+    
+                        button {}
+                    }
+    
+                    .heighCost {
+                        span {}
+    
+                        h4 {}
+    
+                        ul {
+                            li {}
+                        }
+    
+                        button {}
+                    }
+    
+    
+    
+    
+                }
+    
+            }
+        }
+    
+        .weHereForYou {
+            .container {
+             //  overflow: hidden;
+                h3 {
+                   
+    
+    
+                    &:before {
+                       top: 0% ;
+                    }
+    
+                }
+    
+                .input {
+                    width: 100%;
+                   
+                
+    
+                    input {
+                       
+                        &::placeholder{
+                            
+                        }
+                        &:focus {
+                           
+                            
+                        }
+    
+                    }
+    
+                    
+    
+    
+    
+                   
+                    img{
+                        padding: 11px ;
+                    }
+                    &:focus  img  {
+                       
+                    }
+                }
+    
+                span {
+                    
+                }
+    
+                .animationWeHereForYou {
+                    img{
+                       
+                    }
+                    img:first-child {
+                       
+                       
+                 
+                    }
+                    img:nth-child(2){
+                        display: none;
+                    }
+                    img:nth-child(3){
+                      //  display: none;
+                    }
+                    img:nth-child(4){
+                      //  display: none;
+                    }
+                }
+            }
+        }
+    
+    
+    }
+
+//  stop here         ==========================
+
+
+
+
+}
+
+
+
+
+
+
+
+///////////////////////////////////    
+
+@media (min-width: 1025px) and (max-width: 1424px) {
+body {
+
+    
+}
+}
+
+
+
+
+
+//Empty Style  For edit on responsive  
+/////////
+////////
+
+
+
+
+
+
+
+
+
+
+
+/////////////
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////
+/////////////////////////////////////
+////////////////////////////////
+
+
+
+
+// body {
+//     section {
+//         menu {
+//             display: block;
+//             cursor: pointer;
+//         }
+//         nav:hover {
+
+//         }
+
+//         .navHeight {
+
+//         }
+
+//         nav {
+
+
+//             .container {
+
+
+
+//                 .right {
+
+
+//                     .logo {
+
+
+//                         h1 {}
+
+//                         span {}
+//                     }
+
+//                     ul {
+
+
+//                         li {
+//                         }
+//                     }
+
+//                     .add {
+
+//                         i {}
+
+//                         span {}
+//                     }
+//                 }
+
+//                 .left {
+
+
+//                     i {}
+
+//                     .icons {
+
+
+
+//                         svg {
+
+//                         }
+
+//                         .iconsDynamic {
+
+
+//                             .messages {
+
+
+//                                 i {}
+
+//                                 span {}
+//                             }
+
+//                             .notifications {
+
+//                                 i {}
+
+//                                 span {}
+//                             }
+//                         }
+//                     }
+
+//                     .profile {
+
+
+
+//                         .img {
+
+
+
+//                             img {}
+//                         }
+
+//                         span {}
+
+//                         i {}
+//                     }
+//                 }
+
+//             }
+//         }
+
+//         main {
+
+
+//             .shadow {}
+
+//             div {
+
+
+//                 span {}
+
+//                 .path {
+
+
+//                     .pathMain {}
+
+//                     .pathChats {}
+//                 }
+//             }
+//         }
+
+//         .chat {
+
+
+//             .container {
+
+
+
+
+
+//                 .chaTop {
+//                     .text {
+//                         h4 {}
+
+//                         p {}
+//                     }
+//                 }
+
+//                 .chatBar {
+
+//                 }
+
+//                 .chatBottom {
+
+
+
+
+//                     .chatList::-webkit-scrollbar {}
+
+
+//                     .chatList::-webkit-scrollbar-track {}
+
+//                     .chatList::-webkit-scrollbar-thumb {}
+
+//                     .chatList {
+
+//                         display: none;
+
+
+//                         .Clients {
+
+
+//                             .topClient {
+
+
+//                                 .img {}
+
+//                                 .clientName {}
+//                             }
+
+//                             .bottomUser {
+
+
+//                                 .clientMessage {}
+
+//                                 .timeLastMessage {
+//                                     svg {}
+
+//                                     span {}
+//                                 }
+//                             }
+//                         }
+//                     }
+
+
+//                     .clientChat {
+
+
+//                         #togleChatBar {
+//                             svg {
+
+//                             }
+
+//                         }
+
+//                         .topClientChat {
+
+
+
+
+//                             .img {
+
+//                             }
+
+//                             span {
+
+//                             }
+//                         }
+
+
+//                         .middleClientChat::-webkit-scrollbar {
+
+//                         }
+
+
+
+
+//                         .middleClientChat {
+
+//                             .chats {
+
+
+
+//                                 .message {
+
+
+//                                     span {}
+
+//                                     p {
+
+//                                     }
+
+//                                 }
+
+//                                 .EEF0F8 {}
+
+//                                 .otherMessageBorder {}
+
+//                                 .mainUser {
+
+
+
+//                                     span {}
+//                                 }
+
+//                                 .otherUser {
+//                                     span {}
+
+//                                 }
+//                             }
+//                         }
+
+//                         .BottomChat {
+
+
+
+//                             .input {
+
+
+
+//                                 input {}
+
+//                                 input:focus {}
+
+//                                 svg {
+
+//                                 }
+//                             }
+
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+
+//         footer {
+
+
+//             div {
+
+
+//                 .container {}
+//             }
+
+//             .top {
+
+
+//                 .container {
+
+
+//                     div {
+
+
+//                         ul {
+
+
+//                             li {
+
+//                             }
+//                         }
+//                     }
+
+//                     .right {
+
+
+//                         ul {
+//                             li:first-child {}
+
+//                             li {}
+//                         }
+//                     }
+
+//                     .mid {
+
+
+//                         ul {
+//                             li {}
+//                         }
+//                     }
+
+//                     .left {
+
+//                         ul {
+//                             li {}
+//                         }
+
+//                         .apps {
+
+
+
+
+//                             div {
+
+//                             }
+
+
+//                         }
+
+
+
+
+//                     }
+//                 }
+//             }
+
+//             .bottom {
+
+
+//                 .container {
+
+
+//                     ul {
+
+
+
+//                         li {}
+
+//                         li:first-child {
+//                             svg:first-child {}
+//                         }
+
+//                         li:nth-child(2) {
+//                             svg {}
+//                         }
+
+//                         li:nth-child(3) {
+//                             svg {}
+//                         }
+
+//                         li:nth-child(4) {
+//                             svg {}
+//                         }
+//                     }
+
+//                     .copyRight {
+//                         p {
+
+
+//                             span {}
+//                         }
+//                     }
+//                 }
+//             }
+
+//         }
+//     }
+// }
